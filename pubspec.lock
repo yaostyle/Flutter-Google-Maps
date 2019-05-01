@@ -47,14 +47,12 @@ packages:
     source: sdk
     version: "0.0.0"
   google_maps_flutter:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
-      path: "packages/google_maps_flutter"
-      ref: HEAD
-      resolved-ref: "01bb87960def3fa82b0cd4a9030dbe85a7471c47"
-      url: "git://github.com/flutter/plugins"
-    source: git
-    version: "0.5.11"
+      name: google_maps_flutter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.5.11+1"
   matcher:
     dependency: transitive
     description:
