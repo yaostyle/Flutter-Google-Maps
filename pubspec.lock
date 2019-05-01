@@ -46,6 +46,15 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  google_maps_flutter:
+    dependency: "direct dev"
+    description:
+      path: "packages/google_maps_flutter"
+      ref: HEAD
+      resolved-ref: "01bb87960def3fa82b0cd4a9030dbe85a7471c47"
+      url: "git://github.com/flutter/plugins"
+    source: git
+    version: "0.5.11"
   matcher:
     dependency: transitive
     description:
@@ -144,3 +153,4 @@ packages:
     version: "2.0.8"
 sdks:
   dart: ">=2.1.0 <3.0.0"
+  flutter: ">=0.11.9 <2.0.0"
